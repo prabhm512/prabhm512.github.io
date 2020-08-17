@@ -34,8 +34,7 @@ The following changes have been made:
 
 ## Project Status
 
-<mark style="background-color: green">Completed!</mark>
-
+Completed!
 
 
 
