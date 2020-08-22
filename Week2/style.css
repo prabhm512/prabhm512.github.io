@@ -1,6 +1,12 @@
 body {
     height: 100%;
 }
+
+h1 {
+    color: darkturquoise;
+    padding-top: 15px;
+}
+
 .navbar-light .navbar-brand {
     color: #FFFFFF;
     background-color: darkturquoise;
@@ -29,11 +35,6 @@ body {
     border-radius: 25px;
 }
 
-.index-col h1 {
-    color: darkturquoise;
-    padding-top: 15px;
-}
-
 .index-img {
     float: left;
     width: 188px;
@@ -50,15 +51,28 @@ body {
     margin-bottom: 80px;
 }
 
-.portfolio-col h1 {
-    color: darkturquoise;
-    padding-top: 15px;
-}
 
 .portfolio-imgs {
     margin: 10px;
 }
 
+.contact-form {
+    background-color: white;
+    margin-top: 40px;
+    border-radius: 25px;
+    margin-bottom: 80px;
+}
+
+.form-group {
+    margin-left: 20px;
+}
+
+.btn-primary {
+    margin-bottom: 20px;
+    background-color: darkturquoise;
+    border: none;
+    padding: 10px 16px;
+}
 
 .footer{
     margin-top: 40px;
@@ -99,22 +113,24 @@ body {
     }
 }
 
+
 @media screen and (max-width: 992px) {
-    .index-col .portfolio-col {
-        width: 100%;
+    .index-col .portfolio-col, .contact-form {
+        width: 80%;
     }
 
 }
 
 @media screen and (max-width: 768px) {
-    .index-col .portfolio-col{
-        width: 100%;
+    .index-col .portfolio-col, .contact-form {
+        width: 80%;
     }
 
 }
 
+
 @media screen and (max-width: 400px) {
-    .index-col .portfolio-col{
+    .index-col .portfolio-col, .contact-form {
         width: 100%;
     }
 }
