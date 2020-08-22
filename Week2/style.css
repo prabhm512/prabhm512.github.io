@@ -6,6 +6,7 @@ body {
     background-color: darkturquoise;
     font-weight: bold;
     margin-left: 10px;
+    border-radius: 15px;
 }
 
 .navbar-brand {
@@ -21,17 +22,19 @@ body {
 }
 
 
-.col-md-11 {
+.index-col {
     background-color: white;
     margin-top: 40px;
     margin-bottom: 80px;
+    border-radius: 25px;
 }
 
-.col-md-11 h1 {
+.index-col h1 {
     color: darkturquoise;
     padding-top: 15px;
 }
-.portfolio-img {
+
+.index-img {
     float: left;
     width: 188px;
     height: 252px;
@@ -39,6 +42,24 @@ body {
     border-radius: 60%;
     padding-right: 20px;
 }
+
+.portfolio-col {
+    border-radius: 25px;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.portfolio-col h1 {
+    color: darkturquoise;
+    padding-top: 15px;
+}
+
+.portfolio-imgs {
+    margin: 10px;
+}
+
+
 .footer{
     margin-top: 40px;
     text-align: center;
@@ -50,7 +71,7 @@ body {
     width: 100%;
 }
 
-.index-text {
+.footer-text {
     opacity: 0.5;
 }
 
@@ -79,21 +100,21 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-    .col-md-11 {
+    .index-col .portfolio-col {
         width: 100%;
     }
 
 }
 
 @media screen and (max-width: 768px) {
-    .col-md-11 {
+    .index-col .portfolio-col{
         width: 100%;
     }
 
 }
 
 @media screen and (max-width: 400px) {
-    .col-md-11 {
+    .index-col .portfolio-col{
         width: 100%;
     }
 }
