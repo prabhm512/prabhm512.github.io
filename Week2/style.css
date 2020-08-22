@@ -1,9 +1,99 @@
+body {
+    height: 100%;
+}
 .navbar-light .navbar-brand {
     color: #FFFFFF;
     background-color: darkturquoise;
     font-weight: bold;
-    margin-left: 1%;
+    margin-left: 10px;
+}
+
+.navbar-brand {
+    font-size: 25px;
 }
 .navbar-nav {
-    margin-left: 84%;
+    margin-left: 80%;
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 19px;
+}
+
+
+.col-md-11 {
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.col-md-11 h1 {
+    color: darkturquoise;
+    padding-top: 15px;
+}
+.portfolio-img {
+    float: left;
+    width: 188px;
+    height: 252px;
+    transform: rotate(24deg);
+    border-radius: 60%;
+    padding-right: 20px;
+}
+.footer{
+    margin-top: 40px;
+    text-align: center;
+    color: turquoise;
+    background: linear-gradient(360deg,#696969 85.72%,  #00CED1 14.28%);
+    padding: 20px 15px 15px 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.index-text {
+    opacity: 0.5;
+}
+
+/* The highest breakpoint for collpasing navbar to 'hamburger menu' that bootstrap has is 1200px. */
+/* I needed the navbar to collapse after 1600px because the navbar text on my page was wrapping after that point. */
+
+@media (min-width: 1440px){
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .col-md-11 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-11 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .col-md-11 {
+        width: 100%;
+    }
 }
