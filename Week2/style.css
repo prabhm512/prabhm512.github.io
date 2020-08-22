@@ -1,0 +1,9 @@
+.navbar-light .navbar-brand {
+    color: #FFFFFF;
+    background-color: darkturquoise;
+    font-weight: bold;
+    margin-left: 1%;
+}
+.navbar-nav {
+    margin-left: 84%;
+}
