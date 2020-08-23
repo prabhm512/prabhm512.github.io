@@ -18,8 +18,8 @@ The following factors have been considered in developing this portfolio:
 
 ## Visuals
 
-![Laptop][Visual_AboutMe]
-![iPhoneX Design1][Visual_MobileResponsive1] ![iPhoneX Design2][Visual_MobileResponsive2] ![iPhoneX Design3][Visual_MobileResponsive3]
+![Laptop](Visual_AboutMe.gif)
+![iPhoneX Design1](Visual_MobileResponsive1.gif) ![iPhoneX Design2](Visual_MobileResponsive2.gif) ![iPhoneX Design3](Visual_MobileResponsive3.gif)
 
 
 ## Project Status
