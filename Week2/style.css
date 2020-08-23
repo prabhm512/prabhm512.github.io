@@ -2,32 +2,38 @@ body {
     height: 100%;
 }
 
-h1{
+h1, h2{
     color: darkturquoise;
     padding-top: 15px;
 }
 
+/* Name on far right of navigation bar */
 .navbar-light .navbar-brand {
     color: #FFFFFF;
     background-color: darkturquoise;
-    font-weight: bold;
     margin-left: 10px;
     border-radius: 15px;
 }
 
 .navbar-brand {
-    font-size: 25px;
+    font-size: 32px;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 0px 20px;
 }
+
+/* Links to each page on left of navbar */
 .navbar-nav {
     margin-left: 80%;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .nav-link {
     font-size: 19px;
 }
 
+/* 'About Me' page.......................... */
 
+/* White background behind content */
 .index-col {
     background-color: white;
     margin-top: 40px;
@@ -35,7 +41,7 @@ h1{
     border-radius: 25px;
 }
 
-
+/* Face image under 'About Me' */
 .index-img {
     float: left;
     width: 188px;
@@ -43,6 +49,21 @@ h1{
     transform: rotate(24deg);
     border-radius: 60%;
     padding-right: 20px;
+}
+
+/* Text  */
+.no-wrap-text {
+    overflow: hidden;
+}
+
+/* Yellow highlited text */
+mark {
+    background-color: yellow;
+}
+
+/* Social media links */
+a:hover, a:visited {
+    color: purple;
 }
 
 
@@ -56,17 +77,22 @@ h1{
     margin-left: 15px;
 }
 
-.no-wrap-text {
-    overflow: hidden;
-}
+/* Both social media links and face image */
 aside {
     float: left;
 }
 
-h2{
-    color: darkturquoise;
+/* Images to the left of social media links */
+.link-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
+/* 'Portfolio' page............................... */
+
+/* White background behing content */
 .portfolio-col {
     border-radius: 25px;
     background-color: white;
@@ -74,11 +100,14 @@ h2{
     margin-bottom: 80px;
 }
 
-
+/* All images on page */
 .portfolio-imgs {
     margin: 10px 12px 8px 8px;
 }
 
+/* 'Contact' page................................. */
+
+/* Bootstrap Form */
 .contact-form {
     background-color: white;
     margin-top: 40px;
@@ -90,14 +119,17 @@ h2{
     margin-left: 20px;
 }
 
+/* Submit button */
 .btn-primary {
     margin-bottom: 20px;
     background-color: darkturquoise;
     border: none;
     padding: 10px 16px;
+    font-weight: bolder;
 }
 
-.footer{
+/* Footer */
+footer{
     margin-top: 40px;
     text-align: center;
     color: turquoise;
@@ -108,7 +140,7 @@ h2{
     width: 100%;
 }
 
-.footer-text {
+footer span {
     opacity: 0.5;
 }
 
@@ -153,6 +185,10 @@ h2{
         width: 80%;
     }
 
+    .no-wrap-text {
+        overflow: visible;
+    }
+    
 }
 
 
@@ -163,6 +199,10 @@ h2{
 
     .portfolio-imgs {
         width: 100%;
+    }
+
+    .no-wrap-text {
+        overflow: visible;
     }
 }
 
