@@ -18,7 +18,7 @@ h1, h2{
 .navbar-brand {
     font-size: 32px;
     font-family: 'Merriweather Sans', sans-serif;
-    padding: 0px 20px;
+    padding: 0px 10px;
 }
 
 /* Links to each page on left of navbar */
@@ -203,6 +203,10 @@ footer span {
 
     .no-wrap-text {
         overflow: visible;
+    }
+
+    .navbar-brand {
+        font-size: 28px;
     }
 }
 
