@@ -17,11 +17,12 @@ The following factors have been considered in developing this portfolio:
 - Typography
 
 ## Visuals
+<img src="Visual_AboutMe.gif" width="609px" height="300px" alt="Laptop Design"> 
+<img src="Visual_MobileResponsive.gif" width="200px" height="317.6px" alt="iPhoneX Design1"> 
+<img src="Visual_MobileResponsive2.gif" width="200px" height="317.6px" alt="iPhoneX Design2">
+<img src="Visual_MobileResponsive3.gif" width="200px" height="317.6px" alt="iPhoneX Design3"> 
 
-![Laptop](Visual_AboutMe.gif)
-![iPhoneX Design1](Visual_MobileResponsive1.gif) ![iPhoneX Design2](Visual_MobileResponsive2.gif) ![iPhoneX Design3](Visual_MobileResponsive3.gif)
-
-
+  
 ## Project Status
 
 Completed!
