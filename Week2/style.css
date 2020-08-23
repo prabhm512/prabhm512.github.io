@@ -2,7 +2,7 @@ body {
     height: 100%;
 }
 
-h1 {
+h1{
     color: darkturquoise;
     padding-top: 15px;
 }
@@ -35,6 +35,7 @@ h1 {
     border-radius: 25px;
 }
 
+
 .index-img {
     float: left;
     width: 188px;
@@ -42,6 +43,28 @@ h1 {
     transform: rotate(24deg);
     border-radius: 60%;
     padding-right: 20px;
+}
+
+
+.socials {
+    margin-top: 265px;
+}
+
+.socials-links {
+    list-style-type: none;
+    padding: 0px;
+    margin-left: 15px;
+}
+
+.no-wrap-text {
+    overflow: hidden;
+}
+aside {
+    float: left;
+}
+
+h2{
+    color: darkturquoise;
 }
 
 .portfolio-col {
@@ -53,7 +76,7 @@ h1 {
 
 
 .portfolio-imgs {
-    margin: 10px;
+    margin: 10px 12px 8px 8px;
 }
 
 .contact-form {
@@ -126,6 +149,10 @@ h1 {
         width: 80%;
     }
 
+    .portfolio-imgs {
+        width: 80%;
+    }
+
 }
 
 
@@ -133,4 +160,9 @@ h1 {
     .index-col .portfolio-col, .contact-form {
         width: 100%;
     }
+
+    .portfolio-imgs {
+        width: 100%;
+    }
 }
+
