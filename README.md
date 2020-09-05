@@ -26,3 +26,5 @@ The following factors have been considered in developing this portfolio:
 ## Project Status
 
 Completed!
+
+## <a href="https://prabhm512.github.io/">Deployed Project (click to view)</a>
