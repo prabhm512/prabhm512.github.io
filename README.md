@@ -17,7 +17,6 @@ The following factors have been considered in developing this portfolio:
 - Typography
 
 ## Visuals
-<img src="Assets/Visual_AboutMe.gif" width="609px" height="300px" alt="Laptop Design"> 
 <img src="Assets/Visual_MobileResponsive.gif" width="200px" height="317.6px" alt="iPhoneX Design1"> 
 <img src="Assets/Visual_MobileResponsive2.gif" width="200px" height="317.6px" alt="iPhoneX Design2">
 <img src="Assets/Visual_MobileResponsive3.gif" width="200px" height="317.6px" alt="iPhoneX Design3"> 
