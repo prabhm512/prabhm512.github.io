@@ -137,8 +137,23 @@ div[class*="project"] a {
 .swiper-slide {
   background-position: center;
   background-size: cover;
+  height: 430px;
 }
 
+#idx-0 {
+  width: 524px;
+}
+
+#idx-1 {
+  width: 600px;
+}
+
+#idx-2 {
+  width: 614px;
+}
+#idx-3 {
+  width: 500px;
+}
 /* 'Contact' page................................. */
 
 /* Bootstrap Form */
@@ -219,9 +234,24 @@ footer span {
   .no-wrap-text {
     overflow: visible;
   }
+
   .swiper-slide {
+    height: 243px;
+  }
+
+  #idx-0 {
     width: 300px;
-    height: 250px;
+  }
+
+  #idx-1 {
+    width: 324px;
+  }
+
+  #idx-2 {
+    width: 330px;
+  }
+  #idx-3 {
+    width: 280px;
   }
 }
 
@@ -247,9 +277,5 @@ footer span {
   #btn-1,
   #btn-3 {
     margin-left: 30px;
-  }
-  .swiper-slide {
-    width: 300px;
-    height: 250px;
   }
 }
