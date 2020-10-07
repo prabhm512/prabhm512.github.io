@@ -1,238 +1,264 @@
 body {
-    height: 100%;
+  height: 100%;
 }
 
-h1, h2{
-    color: darkturquoise;
-    padding-top: 15px;
+h1,
+h2 {
+  color: darkturquoise;
+  padding-top: 15px;
 }
 
 /* Name on far right of navigation bar */
 .navbar-light .navbar-brand {
-    color: #FFFFFF;
-    background-color: darkturquoise;
-    margin-left: 10px;
-    border-radius: 15px;
+  color: #ffffff;
+  background-color: darkturquoise;
+  margin-left: 10px;
+  border-radius: 15px;
 }
 
 .navbar-brand {
-    font-size: 32px;
-    font-family: 'Merriweather Sans', sans-serif;
-    padding: 0px 10px;
+  font-size: 32px;
+  font-family: "Merriweather Sans", sans-serif;
+  padding: 0px 10px;
 }
 
 /* Links to each page on left of navbar */
 .navbar-nav {
-    margin-left: 80%;
-    padding-right: 15px;
+  margin-left: 80%;
+  padding-right: 15px;
 }
 
 .nav-link {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 /* 'About Me' page.......................... */
 
 /* White background behind content */
 .index-col {
-    background-color: white;
-    margin-top: 40px;
-    margin-bottom: 80px;
-    border-radius: 25px;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  border-radius: 25px;
 }
 
 /* Face image under 'About Me' */
 .index-img {
-    float: left;
-    width: 188px;
-    height: 252px;
-    transform: rotate(24deg);
-    border-radius: 60%;
-    padding-right: 20px;
+  float: left;
+  width: 188px;
+  height: 252px;
+  transform: rotate(24deg);
+  border-radius: 60%;
+  padding-right: 20px;
 }
 
 /* Text  */
 .no-wrap-text {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 /* Yellow highlited text */
 mark {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 /* Social media links */
-a:hover, a:visited {
-    color: purple;
+a:hover,
+a:visited {
+  color: purple;
 }
 
-
 .socials {
-    margin-top: 265px;
+  margin-top: 265px;
 }
 
 .socials-links {
-    list-style-type: none;
-    padding: 0px;
-    margin-left: 15px;
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 15px;
 }
 
 /* Both social media links and face image */
 aside {
-    float: left;
+  float: left;
 }
 
 /* Images to the left of social media links */
 .link-img {
-    width: 25px;
-    height: 25px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 /* 'Portfolio' page............................... */
 
 /* White background behing content */
 .portfolio-col {
-    border-radius: 25px;
-    background-color: white;
-    margin-top: 40px;
-    margin-bottom: 80px;
+  border-radius: 25px;
+  background-color: white;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 /* All images on page */
 .portfolio-imgs {
-    margin: 10px 12px 8px 8px;
+  margin: 10px 12px 8px 8px;
 }
 
-div[class*='project'] {
-    margin-bottom: 30px;
+div[class*="project"] {
+  margin-bottom: 30px;
 }
 
-div[class*='project'] img {
-    width: 457px;
-    height: 329px;
+div[class*="project"] img {
+  width: 457px;
+  height: 329px;
 }
 
-div[class*='project'] a {
-    color: white;
-    font-weight: bold;
+div[class*="project"] a {
+  color: white;
+  font-weight: bold;
 }
 
-#btn-1, #btn-3 {
-    margin-left: 100px;
+#btn-1,
+#btn-3 {
+  margin-left: 100px;
 }
+
+/* Projects Gallery*/
+
+/* body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+} */
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
 /* 'Contact' page................................. */
 
 /* Bootstrap Form */
 .contact-form {
-    background-color: white;
-    margin-top: 40px;
-    border-radius: 25px;
-    margin-bottom: 80px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 25px;
+  margin-bottom: 80px;
 }
 
 .form-group {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 /* Submit button */
 .btn-primary {
-    margin-bottom: 20px;
-    background-color: darkturquoise;
-    border: none;
-    padding: 10px 16px;
-    font-weight: bolder;
+  margin-bottom: 20px;
+  background-color: darkturquoise;
+  border: none;
+  padding: 10px 16px;
+  font-weight: bolder;
 }
 
 /* Footer */
-footer{
-    margin-top: 40px;
-    text-align: center;
-    color: turquoise;
-    background: linear-gradient(360deg,#696969 85.72%,  #00CED1 14.28%);
-    padding: 20px 15px 15px 15px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: turquoise;
+  background: linear-gradient(360deg, #696969 85.72%, #00ced1 14.28%);
+  padding: 20px 15px 15px 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer span {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 /* The highest breakpoint for collpasing navbar to 'hamburger menu' that bootstrap has is 1200px. */
 /* I needed the navbar to collapse after 1600px because the navbar text on my page was wrapping after that point. */
 
-@media (min-width: 1440px){
-    .navbar-expand-custom {
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-    }
-    .navbar-expand-custom .navbar-nav {
-        flex-direction: row;
-    }
-    .navbar-expand-custom .navbar-nav .nav-link {
-        padding-right: .5rem;
-        padding-left: .5rem;
-    }
-    .navbar-expand-custom .navbar-collapse {
-        display: flex!important;
-    }
-    .navbar-expand-custom .navbar-toggler {
-        display: none;
-    }
+@media (min-width: 1440px) {
+  .navbar-expand-custom {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+    flex-direction: row;
+  }
+  .navbar-expand-custom .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: flex !important;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
 }
 
-
 @media screen and (max-width: 992px) {
-    .index-col .portfolio-col, .contact-form {
-        width: 80%;
-    }
-
+  .index-col .portfolio-col,
+  .contact-form {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .index-col .portfolio-col, .contact-form {
-        width: 80%;
-    }
+  .index-col .portfolio-col,
+  .contact-form {
+    width: 80%;
+  }
 
-    .portfolio-imgs {
-        width: 80%;
-    }
+  .portfolio-imgs {
+    width: 80%;
+  }
 
-    .no-wrap-text {
-        overflow: visible;
-    }
-    
+  .no-wrap-text {
+    overflow: visible;
+  }
 }
-
 
 @media screen and (max-width: 400px) {
-    .index-col .portfolio-col, .contact-form {
-        width: 100%;
-    }
+  .index-col .portfolio-col,
+  .contact-form {
+    width: 100%;
+  }
 
-    .portfolio-imgs {
-        width: 100%;
-    }
+  .portfolio-imgs {
+    width: 100%;
+  }
 
-    .no-wrap-text {
-        overflow: visible;
-    }
+  .no-wrap-text {
+    overflow: visible;
+  }
 
-    .navbar-brand {
-        font-size: 28px;
-    }
+  .navbar-brand {
+    font-size: 28px;
+  }
 
-    div[class*='project'] img {
+  div[class*="project"] img {
     width: 90%;
     height: 90%;
-    }
+  }
 
-    #btn-1, #btn-3 {
-        margin-left: 30px;
-    }
+  #btn-1,
+  #btn-3 {
+    margin-left: 30px;
+  }
 }
-

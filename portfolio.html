@@ -1,70 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Prabh | Portfolio</title>
-        <!-- Bootstrap CDN -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <!-- Link to CSS -->
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap" rel="stylesheet">
-        
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-
-    </head>
-<body background="Assets/background.jfif">
+  <head>
+    <title>Prabh | Portfolio</title>
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- Link to CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body background="Assets/background.jfif">
     <!-- Bootstrap navigation bar -->
-    <nav class="navbar navbar-expand-custom navbar-light" style="background-color: white;">
-        <a class="navbar-brand mb-0 h1" href="index.html">Prabh Singh</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="index.html">About</a>
-            <a class="nav-link active" href="#">Portfolio<span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="contact.html">Contact</a>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Bootstrap Grid Layout -->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9 portfolio-col">
-            <h1>Portfolio <em>(Under construction...)</em></h1>
-            <hr>
-            <!-- <img src="Assets/350x350.png" class="portfolio-imgs">
-            <img src="Assets/350x350.png" class="portfolio-imgs">
-            <img src="Assets/350x350.png" class="portfolio-imgs">
-            <img src="Assets/350x350.png" class="portfolio-imgs">
-            <img src="Assets/350x350.png" class="portfolio-imgs"> -->
-            <div class="project-1">
-            <img src="Assets/Visual.gif" class="portfolio img-1">
-            <br>
-            <br>
-            <a class="btn btn-primary" id="btn-1" href="https://github.com/prabhm512/password-generator" role="button" target="_blank">Code</a>
-            <a class="btn btn-primary" id="btn-2" href="https://prabhm512.github.io/password-generator/"  role="button" target="_blank">Deployment</a>
-            </div>
-            <div class="project-2">
-            <img src="Assets/code-quiz.jpg" class="portfolio img-2">
-            <br>
-            <br>
-            <a class="btn btn-primary" id="btn-3" href="https://github.com/prabhm512/code-quiz"role="button" target="_blank">Code</a>
-            <a class="btn btn-primary" id="btn-4" href="https://prabhm512.github.io/code-quiz/"  role="button" target="_blank">Deployment</a>
-            </div>
-         </div>
+    <nav
+      class="navbar navbar-expand-custom navbar-light"
+      style="background-color: white"
+    >
+      <a class="navbar-brand mb-0 h1" href="index.html">Prabh Singh</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" href="index.html">About</a>
+          <a class="nav-link active" href="#"
+            >Portfolio<span class="sr-only">(current)</span></a
+          >
+          <a class="nav-link" href="contact.html">Contact</a>
         </div>
       </div>
+    </nav>
 
-      <!-- Footer -->s
-      <footer>
-        <span class="footer-text">&#169; Copyright 2020 Prabh Singh</span>
-      </footer>
+    <!-- Bootstrap Grid Layout -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 portfolio-col">
+          <h1>Portfolio <em>(Under construction...)</em></h1>
+          <hr />
+          <!-- Swiper -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide"
+                style="
+                  background-image: url(Assets/fantastic-food-finder.png);
+                  height: 250px;
+                  width: 300px;
+                "
+              ></div>
+              <div
+                class="swiper-slide"
+                style="
+                  background-image: url(Assets/weather-dashboard.gif);
+                  height: 250px;
+                  width: 380px;
+                "
+              ></div>
+              <div
+                class="swiper-slide"
+                style="
+                  background-image: url(Assets/workday-scheduler.png);
+                  height: 250px;
+                  width: 380px;
+                "
+              ></div>
+              <div
+                class="swiper-slide"
+                style="
+                  background-image: url(Assets/password-generator.gif);
+                  height: 250px;
+                  width: 300px;
+                "
+              ></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <!-- Allow links to show when menu collapses into hamburger icon -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <!-- Footer -->s
+    <footer>
+      <span class="footer-text">&#169; Copyright 2020 Prabh Singh</span>
+    </footer>
 
-</body>
+    <!-- Allow links to show when menu collapses into hamburger icon -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <!-- <script src="../package/swiper-bundle.min.js"></script> -->
+
+    <script src="portfolio.js"></script>
+  </body>
 </html>
