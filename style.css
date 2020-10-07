@@ -127,26 +127,16 @@ div[class*="project"] a {
 
 /* Projects Gallery*/
 
-/* body {
-  background: #fff;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-} */
-
 .swiper-container {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
+  z-index: 0;
 }
 
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
 }
 
 /* 'Contact' page................................. */
@@ -174,7 +164,7 @@ div[class*="project"] a {
 
 /* Footer */
 footer {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   text-align: center;
   color: turquoise;
   background: linear-gradient(360deg, #696969 85.72%, #00ced1 14.28%);
@@ -182,6 +172,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 1;
 }
 
 footer span {
@@ -225,22 +216,18 @@ footer span {
     width: 80%;
   }
 
-  .portfolio-imgs {
-    width: 80%;
-  }
-
   .no-wrap-text {
     overflow: visible;
+  }
+  .swiper-slide {
+    width: 300px;
+    height: 250px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .index-col .portfolio-col,
   .contact-form {
-    width: 100%;
-  }
-
-  .portfolio-imgs {
     width: 100%;
   }
 
@@ -260,5 +247,9 @@ footer span {
   #btn-1,
   #btn-3 {
     margin-left: 30px;
+  }
+  .swiper-slide {
+    width: 300px;
+    height: 250px;
   }
 }
