@@ -97,40 +97,16 @@ aside {
 .portfolio-col {
   border-radius: 25px;
   background-color: white;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 80px;
-}
-
-/* All images on page */
-.portfolio-imgs {
-  margin: 10px 12px 8px 8px;
-}
-
-div[class*="project"] {
-  margin-bottom: 30px;
-}
-
-div[class*="project"] img {
-  width: 457px;
-  height: 329px;
-}
-
-div[class*="project"] a {
-  color: white;
-  font-weight: bold;
-}
-
-#btn-1,
-#btn-3 {
-  margin-left: 100px;
 }
 
 /* Projects Gallery*/
 
 .swiper-container {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 100px;
   z-index: 0;
 }
 
@@ -149,10 +125,19 @@ div[class*="project"] a {
 }
 
 #idx-2 {
-  width: 614px;
+  width: 426px;
 }
 #idx-3 {
   width: 500px;
+}
+
+.deployment {
+  margin-left: 30%;
+}
+
+.swiper-slide button {
+  margin-top: 450px;
+  margin-right: 10px;
 }
 /* 'Contact' page................................. */
 
@@ -248,7 +233,7 @@ footer span {
   }
 
   #idx-2 {
-    width: 330px;
+    width: 240px;
   }
   #idx-3 {
     width: 280px;
