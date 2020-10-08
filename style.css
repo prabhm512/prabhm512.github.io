@@ -238,6 +238,20 @@ footer span {
   #idx-3 {
     width: 280px;
   }
+
+  .deployment {
+    margin-left: 16%;
+  }
+
+  #idx-2 button {
+    margin-left: 2%;
+  }
+
+  .swiper-slide button {
+    font-size: 16px;
+    margin-top: 260px;
+    margin-right: 0px;
+  }
 }
 
 @media screen and (max-width: 400px) {
