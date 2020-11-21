@@ -15,6 +15,7 @@ app.use(express.json());
 // Routes
 // =============================================================
 require("./routes/html-routes")(app);
+require("./routes/api-routes")(app);
 
 db.sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => {
