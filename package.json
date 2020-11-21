@@ -1,0 +1,27 @@
+{
+  "name": "prabhm512.github.io",
+  "version": "1.0.0",
+  "description": "A showcase of Prabh's projects.",
+  "main": "portfolio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhm512/prabhm512.github.io.git"
+  },
+  "keywords": [],
+  "author": "Prabh Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabhm512/prabhm512.github.io/issues"
+  },
+  "homepage": "https://github.com/prabhm512/prabhm512.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
