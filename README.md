@@ -17,9 +17,9 @@ The following factors have been considered in developing this portfolio:
 - Typography
 
 ## Visuals
-<img src="Assets/Visual_MobileResponsive.gif" width="200px" height="317.6px" alt="iPhoneX Design1"> 
-<img src="Assets/Visual_MobileResponsive2.gif" width="200px" height="317.6px" alt="iPhoneX Design2">
-<img src="Assets/Visual_MobileResponsive3.gif" width="200px" height="317.6px" alt="iPhoneX Design3"> 
+<img src="public/Assets/Visual_MobileResponsive.gif" width="200px" height="317.6px" alt="iPhoneX Design1"> 
+<img src="public/Assets/Visual_MobileResponsive2.gif" width="200px" height="317.6px" alt="iPhoneX Design2">
+<img src="public/Assets/Visual_MobileResponsive3.gif" width="200px" height="317.6px" alt="iPhoneX Design3"> 
 
   
 ## Project Status
