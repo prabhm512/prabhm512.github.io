@@ -19,7 +19,7 @@ $(document).ready(() => {
             email: $(".email").val().trim(),
             message: $(".message").val().trim()
         };
-        console.log(info);
+        // Post the data that has been entered by the user
         postContacts(info);
     });
 });

@@ -98,12 +98,21 @@ aside {
   border-radius: 25px;
   background-color: white;
   margin-top: 10px;
+  /* margin-bottom: 80px; */
+}
+
+.sub-heading {
+  color: coral;
+  font-size: 18px;
+}
+
+.bottom {
   margin-bottom: 80px;
 }
 
 /* Projects Gallery*/
 
-.swiper-container {
+div[class*="swiper-container"] {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 100px;
@@ -115,6 +124,12 @@ aside {
   background-size: cover;
   height: 430px;
 }
+
+/* .project-type {
+  text-align: center;
+  font-style: italic;
+  color: coral;
+} */
 
 #idx-0 {
   width: 524px;
@@ -129,6 +144,15 @@ aside {
 }
 #idx-3 {
   width: 500px;
+}
+#idx-4 {
+  width: 580px;
+}
+#idx-5 {
+  width: 518px;
+}
+#idx-7 {
+  width: 524px;
 }
 
 .deployment {
