@@ -1,8 +1,9 @@
-var express = require("express");
+const express = require("express");
+const db = require("./models");
 
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
-var app = express();
+const app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
@@ -11,11 +12,12 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Import routes and give the server access to them.
-var routes = require("");
+// Routes
+// =============================================================
+require("./routes/htmlRoutes")(app);
 
-app.use(routes);
-
-app.listen(PORT, function() {
-  console.log("App now listening at localhost:" + PORT);
+db.sequelize.sync({ force: false }).then(() => {
+  app.listen(PORT, () => {
+    console.log("App now listening at localhost:" + PORT);
+  });
 });
