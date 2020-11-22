@@ -154,9 +154,16 @@ div[class*="swiper-container"] {
 #idx-7 {
   width: 524px;
 }
+#idx-8 {
+  width: 551px;
+}
 
 .deployment {
   margin-left: 30%;
+}
+
+.portfolio-code {
+  margin-left: 40%;
 }
 
 .swiper-slide button {
@@ -261,6 +268,21 @@ footer span {
   }
   #idx-3 {
     width: 280px;
+  }
+
+  #idx-4 {
+  width: 327px;
+  }
+
+  #idx-5 {
+    width: 291px;
+  }
+
+  #idx-7 {
+    width: 300px;
+  }
+  #idx-8 {
+    width: 310px;
   }
 
   .deployment {
