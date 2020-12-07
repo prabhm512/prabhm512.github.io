@@ -2,7 +2,7 @@
 
 ## Description 
 
-It is imperative that web applications render well on a variety of devices and window/screen sizes. 
+This is my personal portfolio. It gives more information about me and showcases my developments.
 
 The following factors have been considered in developing this portfolio:
 
@@ -13,8 +13,12 @@ The following factors have been considered in developing this portfolio:
 ## Tools & Technologies 
 
 - Bootstrap layouts/components
-- Media Queries
-- Typography
+- SweetAlert
+- Content Filter
+- EmailJS
+- Chaning buttons
+- Git/GitHub
+- VS Code
 
 ## Visuals
 <img src="Assets/Visual_MobileResponsive.gif" width="200px" height="317.6px" alt="iPhoneX Design1"> 
