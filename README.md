@@ -27,3 +27,9 @@ The following factors have been considered in developing this portfolio:
 Completed!
 
 ## <a href="https://prabhm512.github.io/">Deployed Project (click to view)</a>
+
+## Acknowledgements
+
+<strong>Content Filter:</strong> <a href="https://twitter.com/romano_cla">@romana_cla</a> & <a href="https://twitter.com/guerriero_se">@guerriero_se</a>                     
+<strong>Sweet Alert:</strong> <a href="https://tristanedwards.me/">Tristan Edwards</a> + Contributors            
+<strong>Changing Button:</strong> <a href="https://codepen.io/thelaazyguy">thelaazyguy</a>
