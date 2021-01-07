@@ -10,7 +10,7 @@ h2 {
 }
 
 .description {
-  color: navy;
+  color: blue;
 }
 
 .toast {
@@ -156,15 +156,13 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
-  .index-col .portfolio-col,
-  .contact-form {
+  .index-col .portfolio-col{
     width: 80%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .index-col .portfolio-col,
-  .contact-form {
+  .index-col .portfolio-col {
     width: 80%;
   }
 
@@ -174,16 +172,37 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-  .index-col .portfolio-col,
-  .contact-form {
+  .index-col .portfolio-col {
     width: 100%;
   }
 
   .no-wrap-text {
     overflow: visible;
   }
+}
 
-  .navbar-brand {
-    font-size: 28px;
+@media screen and (max-width: 368px) {
+  /* .no-wrap-text {
+    clear: left;
+  } */
+
+  .index-img {
+    width: 160px;
+    height: 200px;
+  }
+
+  h3 {
+    font-size: 1.50rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .index-img {
+    width: 140px;
+    height: 180px;
+  }
+
+  h3 {
+    font-size: 1.20rem;
   }
 }
