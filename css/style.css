@@ -1,11 +1,24 @@
 body {
   height: 100%;
+  background: linear-gradient(-50deg, white, rgb(250, 160, 150), #f7efe2 );
 }
 
 h1,
 h2 {
-  color: darkturquoise;
+  color: blue;
   padding-top: 15px;
+}
+
+.description {
+  color: navy;
+}
+
+.toast {
+  float: left;
+}
+
+.tooltip {
+    white-space:pre-wrap;
 }
 
 /* Name on far right of navigation bar */
@@ -32,13 +45,30 @@ h2 {
   font-size: 19px;
 }
 
-/* 'About Me' page.......................... */
+/* Icons on the top right corner */
+.details {
+  padding: 10px;
+  float: right;
+  background-color: white;
+}
+
+.details img{
+  width: 40px;
+  height: 40px;
+  /* margin: 0rem; */
+}
+
+/* 'Intro' section.......................... */
+
+.intro {
+  clear: both;
+}
 
 /* White background behind content */
 .index-col {
-  background-color: white;
+  /* background-color: white; */
   margin-top: 40px;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   border-radius: 25px;
 }
 
@@ -91,51 +121,26 @@ aside {
   margin-bottom: 5px;
 }
 
-/* 'Portfolio' page............................... */
+/* 'Portfolio' section............................... */
 
 /* White background behing content */
 .portfolio-col {
   border-radius: 25px;
-  background-color: white;
+  /* background-color: white; */
   margin-top: 10px;
   /* margin-bottom: 80px; */
 }
 
 .bottom {
-  margin-bottom: 80px;
+  margin-bottom: 130px;
 }
 
 .featured {
   border: 5px solid gold;
 }
 
-/* 'Contact' page................................. */
-
-/* Bootstrap Form */
-.contact-form {
-  background-color: white;
-  margin-top: 40px;
-  border-radius: 25px;
-  margin-bottom: 80px;
-}
-
-.form-group {
-  margin-left: 20px;
-}
-
-/* Submit button */
-.btn-primary {
-  margin-bottom: 20px;
-  background-color: darkturquoise;
-  border: none;
-  padding: 10px 16px;
-  font-weight: bolder;
-}
-
 /* Footer */
 footer {
-  /* margin-top: 40px; */
-  text-align: center;
   color: turquoise;
   background: linear-gradient(360deg, #696969 85.72%, #00ced1 14.28%);
   padding: 20px 15px 15px 15px;
@@ -145,32 +150,9 @@ footer {
   z-index: 1;
 }
 
-footer span {
-  opacity: 0.5;
-}
-
-/* The highest breakpoint for collpasing navbar to 'hamburger menu' that bootstrap has is 1200px. */
-/* I needed the navbar to collapse after 1600px because the navbar text on my page was wrapping after that point. */
-
-@media (min-width: 1440px) {
-  .navbar-expand-custom {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-  }
-  .navbar-expand-custom .navbar-nav {
-    flex-direction: row;
-  }
-  .navbar-expand-custom .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-  .navbar-expand-custom .navbar-collapse {
-    display: flex !important;
-  }
-  .navbar-expand-custom .navbar-toggler {
-    display: none;
-  }
+.footer-email h5 {
+  margin-top: 0.5rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 992px) {

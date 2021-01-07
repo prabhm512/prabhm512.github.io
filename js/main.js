@@ -1,4 +1,11 @@
-jQuery(document).ready(function($){
+jQuery(document).ready(function($){        
+	// Show toast
+	$(".toast").toast('show');
+	// Enable tooltips in the whole document
+	var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+	var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+		return new bootstrap.Tooltip(tooltipTriggerEl)
+	})
 	//open/close lateral filter
 	$('.cd-filter-trigger').on('click', function(){
 		triggerFilter(true);
