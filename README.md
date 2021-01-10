@@ -13,9 +13,8 @@ The following factors have been considered in developing this portfolio:
 ## Tools & Technologies 
 
 - Bootstrap layouts/components
-- SweetAlert
+- Swiper API
 - Content Filter
-- EmailJS
 - Chaning buttons
 - Git/GitHub
 - VS Code
@@ -35,5 +34,5 @@ Completed!
 ## Acknowledgements
 
 <strong>Content Filter:</strong> <a href="https://twitter.com/romano_cla">@romana_cla</a> & <a href="https://twitter.com/guerriero_se">@guerriero_se</a>                     
-<strong>Sweet Alert:</strong> <a href="https://tristanedwards.me/">Tristan Edwards</a> + Contributors            
+<strong>Swiper API:</strong> <a href="https://github.com/nolimits4web">Vladimir Kharlampidi</a>     
 <strong>Changing Button:</strong> <a href="https://codepen.io/thelaazyguy">thelaazyguy</a>
