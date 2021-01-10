@@ -37,7 +37,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>  
   </head>
   <body>
-    <!-- Toast -->
+    <!-- Welcome Toast -->
     <div role="alert" aria-live="assertive" aria-atomic="true" class="toast" data-autohide="false">
       <div class="toast-header">
         <img src="Assets/hiBoyEmoji.jpg" class="rounded mr-2" alt="greeting image" width="30px" height="30px">
@@ -47,14 +47,15 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <!-- <div class="toast-body">
-        Welcome to my Portfolio :)
-      </div> -->
+      <div class="toast-body">
+        <b>Desktop users</b>: Please HOVER over project images to find out more info.<br>
+        <b>Mobile users</b>: Please CLICK on bottom right of project images to find out more info.
+      </div>
     </div>
     <!-- Github, LinkedIn, Resume -->
     <div class="details">
         <a href="https://github.com/prabhm512" target="_blank"><img src="Assets/github.png" class="link-img" alt="github" data-bs-toggle="tooltip" data-bs-placement="top" title="My Github"/></a>
-        <a href="https://drive.google.com/file/d/1lYsioyCRCSB8NUGgxiP9Ixm930TlfUOg/view?usp=sharing" target="_blank"><img src="Assets/resume.png" class="link-img" alt="resume" data-bs-toggle="tooltip" data-bs-placement="top" title="My Resume"/></a>         
+        <a href="https://drive.google.com/file/d/1mbQyqjw86Mw5xeUguFLerz3LUmmalIK_/view?usp=sharing" target="_blank"><img src="Assets/resume.png" class="link-img" alt="resume" data-bs-toggle="tooltip" data-bs-placement="top" title="My Resume"/></a>         
         <a href="https://www.linkedin.com/in/prabhmeharsingh" target="_blank"><img src="Assets/linkedin.png" class="link-img" alt="linkedIn" data-bs-toggle="tooltip" data-bs-placement="top" title="My LinkedIn"/></a>
     </div>
 
@@ -118,7 +119,11 @@
               <ul>
                 <li class="mix color-1 check1 radio3 option2 featured" data-bs-toggle="tooltip" data-bs-html="true" title="Node | MySQL | Express&#013;&#010;&#013;&#010;A free advertisement channel for businesses struggling due to COVID-19.">
                   <div class="container">
-                    <img src="Assets/bap.jpg" alt="Image 5" class="image">
+                    <picture>
+                      <source srcset="Assets/bap.webp" class="image" type="image/webp">
+                      <source srcset="Assets/bap.jpeg" class="image" type="image/jpeg"> 
+                      <img src="Assets/bap.jpeg" alt="Image 5" class="image">
+                    </picture>
                     <div class="centered">
                       <div class="wrapper">
                         <div class="link_wrapper">
