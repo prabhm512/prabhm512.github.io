@@ -1,0 +1,26 @@
+body {
+  height: 100%;
+  background: linear-gradient(-50deg, white, rgb(250, 160, 150), #f7efe2 );
+}
+
+h1,
+h2 {
+  color: blue;
+  padding-top: 15px;
+}
+
+.toast {
+  float: left;
+}
+
+.tooltip {
+    white-space:pre-wrap;
+}
+
+/* Social media links */
+a:hover,
+a:visited {
+  color: purple;
+}
+
+

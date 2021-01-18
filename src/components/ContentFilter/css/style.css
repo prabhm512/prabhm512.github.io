@@ -1,0 +1,33 @@
+/* White background behing content */
+.portfolio-col {
+  border-radius: 25px;
+  /* background-color: white; */
+  margin-top: 10px;
+  /* margin-bottom: 80px; */
+}
+
+.bottom {
+  margin-bottom: 130px;
+}
+
+.color-1 {
+  border: 5px solid gold;
+}
+
+@media screen and (max-width: 992px) {
+  .portfolio-col{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-col {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .portfolio-col {
+    width: 100%;
+  }
+}

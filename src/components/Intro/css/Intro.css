@@ -1,0 +1,87 @@
+.intro {
+  clear: both;
+}
+
+/* White background behind content */
+.index-col {
+  /* background-color: white; */
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+}
+
+/* Face image under 'About Me' */
+.index-img {
+  float: left;
+  width: 188px;
+  height: 252px;
+  transform: rotate(24deg);
+  border-radius: 60%;
+  padding-right: 20px;
+}
+
+/* Face image */
+aside {
+  float: left;
+}
+
+/* Text  */
+.no-wrap-text {
+  overflow: hidden;
+}
+
+.description {
+  color: blue;
+}
+
+@media screen and (max-width: 992px) {
+  .index-col {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .index-col {
+    width: 80%;
+  }
+
+  .no-wrap-text {
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .index-col {
+    width: 100%;
+  }
+
+  .no-wrap-text {
+    overflow: visible;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  /* .no-wrap-text {
+    clear: left;
+  } */
+
+  .index-img {
+    width: 160px;
+    height: 200px;
+  }
+
+  .description {
+    font-size: 1.50rem;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .index-img {
+    width: 140px;
+    height: 180px;
+  }
+
+  .description {
+    font-size: 1.20rem;
+  }
+}

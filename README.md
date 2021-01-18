@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is my personal portfolio. It gives more information about me and showcases my developments.
+This is my personal portfolio.
 
 The following factors have been considered in developing this portfolio:
 
@@ -12,22 +12,16 @@ The following factors have been considered in developing this portfolio:
 
 ## Tools & Technologies 
 
-- Bootstrap layouts/components
+- React 
+- React Bootstrap
 - Swiper API
 - Content Filter
-- Chaning buttons
+- Changing buttons
 - Git/GitHub
 - VS Code
 
 ## Visuals
-<img src="Assets/Visual_MobileResponsive.gif" width="200px" height="317.6px" alt="iPhoneX Design1"> 
-<img src="Assets/Visual_MobileResponsive2.gif" width="200px" height="317.6px" alt="iPhoneX Design2">
-<img src="Assets/Visual_MobileResponsive3.gif" width="200px" height="317.6px" alt="iPhoneX Design3"> 
-
-  
-## Project Status
-
-Completed!
+<img src="public/Assets/screenshot.png" alt="screenshot of website"> 
 
 ## <a href="https://prabhm512.github.io/">Deployed Project (click to view)</a>
 

@@ -1,3 +1,17 @@
+/* eslint-disable no-new-func */
+/* eslint-disable no-new-wrappers */
+/* eslint-disable no-cond-assign */
+/* eslint-disable new-parens */
+/* eslint-disable no-extend-native */
+/* eslint-disable no-sequences */
+/* eslint-disable eqeqeq */
+/* eslint-disable no-restricted-globals */
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-expressions */
+/* eslint-disable no-useless-escape */
+/* eslint-disable no-redeclare */
+/* eslint-disable no-loop-func */
+/* eslint-disable no-mixed-operators */
 /* Modernizr 2.8.3 (Custom Build) | MIT & BSD
  * Build: http://modernizr.com/download/#-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-generatedcontent-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-applicationcache-canvas-canvastext-draganddrop-hashchange-history-audio-video-indexeddb-input-inputtypes-localstorage-postmessage-sessionstorage-websockets-websqldatabase-webworkers-geolocation-inlinesvg-smil-svg-svgclippaths-touch-webgl-shiv-cssclasses-addtest-prefixed-teststyles-testprop-testallprops-hasevent-prefixes-domprefixes-load
  */

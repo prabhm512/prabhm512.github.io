@@ -1,0 +1,15 @@
+/* Footer */
+footer {
+  color: turquoise;
+  background: linear-gradient(360deg, #696969 85.72%, #00ced1 14.28%);
+  padding: 20px 15px 15px 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.footer-email h5 {
+  margin-top: 0.5rem;
+  text-align: center;
+}

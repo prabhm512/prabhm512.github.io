@@ -1,0 +1,12 @@
+/* Icons on the top right corner */
+.details {
+  padding: 10px;
+  float: right;
+  background-color: white;
+}
+
+.details img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
