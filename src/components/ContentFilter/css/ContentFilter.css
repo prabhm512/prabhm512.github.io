@@ -163,7 +163,6 @@ xtab-filter
   padding-left: 14px;
 }
 .cd-tab-filter a.selected {
-  background: blue;
   color: #ffffff;
 }
 .cd-tab-filter.is-open::after {

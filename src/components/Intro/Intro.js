@@ -5,6 +5,17 @@ import 'swiper/swiper-bundle.min.css';
 import './css/swiper.css';
 import './css/Intro.css';
 
+// Images have to be imported indivudually. Not working otherwise
+import indexImg from '../assets/index.jpg';
+import html from '../assets/html-css.jpg';
+import js from '../assets/js.png';
+import react from '../assets/react.png';
+import node from '../assets/node.jpg';
+import mysql from '../assets/mysql.jpg';
+import mongo from '../assets/mongo.jpg'; 
+import git from '../assets/git.jpg';
+import express from '../assets/express.jpg';
+
 function Intro() {
 
     // install Swiper components
@@ -19,7 +30,7 @@ function Intro() {
                 {/* Face image and link to social media */}
                 <aside>
                     <div className="face-image">
-                    <img src="../../Assets/index.jpg" className="index-img" alt="my face"/>
+                    <img src={indexImg} className="index-img" alt="my face"/>
                     </div>
                 </aside>
                 {/* All paragraphs (to the right of image and socials) */}
@@ -39,14 +50,14 @@ function Intro() {
                     }}
                     pagination={{clickable:true, el:".swiper-pagination"}}
                     >
-                    <SwiperSlide><img src="Assets/html-css.jpg" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML & CSS" alt="HTML & CSS"/></SwiperSlide>
-                    <SwiperSlide><img src="Assets/js.png" data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript" alt="JavaScript"/></SwiperSlide>
-                    <SwiperSlide><img src="Assets/react.png" data-bs-toggle="tooltip" data-bs-placement="top" title="React.js" alt="React.js"/></SwiperSlide>
-                    <SwiperSlide><img src="Assets/node.jpg" data-bs-toggle="tooltip" data-bs-placement="top" title="Node.js" alt="Node.js"/></SwiperSlide>
-                    <SwiperSlide><img src="Assets/mysql.jpg" data-bs-toggle="tooltip" data-bs-placement="top" title="MySQL" alt="MySQL"/></SwiperSlide>
-                    <SwiperSlide><img src="Assets/mongo.jpg" data-bs-toggle="tooltip" data-bs-placement="top" title="MongoDB" alt="MongoDB"/></SwiperSlide>
-                    <SwiperSlide><img src="Assets/git.jpg" data-bs-toggle="tooltip" data-bs-placement="top" title="Git" alt="Git"/></SwiperSlide>
-                    <SwiperSlide><img src="Assets/express.jpg" data-bs-toggle="tooltip" data-bs-placement="top" title="Express" alt="Express"/></SwiperSlide>
+                    <SwiperSlide><img src={html} data-bs-toggle="tooltip" data-bs-placement="top" title="HTML & CSS" alt="HTML & CSS"/></SwiperSlide>
+                    <SwiperSlide><img src={js} data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript" alt="JavaScript"/></SwiperSlide>
+                    <SwiperSlide><img src={react} data-bs-toggle="tooltip" data-bs-placement="top" title="React.js" alt="React.js"/></SwiperSlide>
+                    <SwiperSlide><img src={node} data-bs-toggle="tooltip" data-bs-placement="top" title="Node.js" alt="Node.js"/></SwiperSlide>
+                    <SwiperSlide><img src={mysql} data-bs-toggle="tooltip" data-bs-placement="top" title="MySQL" alt="MySQL"/></SwiperSlide>
+                    <SwiperSlide><img src={mongo} data-bs-toggle="tooltip" data-bs-placement="top" title="MongoDB" alt="MongoDB"/></SwiperSlide>
+                    <SwiperSlide><img src={git} data-bs-toggle="tooltip" data-bs-placement="top" title="Git" alt="Git"/></SwiperSlide>
+                    <SwiperSlide><img src={express} data-bs-toggle="tooltip" data-bs-placement="top" title="Express" alt="Express"/></SwiperSlide>
                     {/* Add Pagination */}
                     <div className="swiper-pagination"></div>
                 </Swiper>

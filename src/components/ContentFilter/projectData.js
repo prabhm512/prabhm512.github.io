@@ -1,3 +1,15 @@
+// Images 
+import bap from '../assets/bap.jpeg';
+import empDirectory from '../assets/employee-directory.png';
+import burgerLogger from '../assets/burger-logger.jpg';
+import workoutTracker from '../assets/workout-tracker.jpg';
+import fff from '../assets/fantastic-food-finder.jpg';
+import workdaySchedular from '../assets/workday-scheduler.jpg';
+import empTracker from '../assets/emp-tracker.jpg';
+import readmeGenerator from '../assets/readme-generator.jpg';
+import codeQuiz from '../assets/code-quiz.jpg';
+import pwdGenerator from '../assets/password-generator.jpg';
+
 // Data structure for dynamically loading project content in content filter
 const projectData = [
     {
@@ -6,7 +18,7 @@ const projectData = [
         popoverTitle: 'Business Advertisement Portal',
         techStack: 'Node | MySQL | Express',
         popoverContent: 'A free advertisement channel for businesses struggling due to COVID-19.',
-        image: 'Assets/bap.jpeg',
+        image: bap,
         website: 'https://business-advertisement-portal.herokuapp.com/',
         code: 'https://github.com/prabhm512/business-advertisement-portal',
         alt: "business-advertisement-portal"
@@ -17,7 +29,7 @@ const projectData = [
         popoverTitle: 'Employee Directory',
         techStack: 'React',
         popoverContent: 'An employee directory to get my feet wet in React.',
-        image: 'Assets/employee-directory.png',
+        image: empDirectory,
         website: 'https://prabhm512.github.io/employee-directory',
         code: 'https://github.com/prabhm512/employee-directory',
         alt: "employee-directory"
@@ -28,7 +40,7 @@ const projectData = [
         popoverTitle: 'Burger Logger',
         techStack: 'Node | MySQL | Express',
         popoverContent: 'A burger logger to practice the MVC framework.',
-        image: 'Assets/burger-logger.jpg',
+        image: burgerLogger,
         website: 'https://ps-burger-logger.herokuapp.com/',
         code: 'https://github.com/prabhm512/burger-logger',
         alt: 'burger-logger'
@@ -39,7 +51,7 @@ const projectData = [
         popoverTitle: 'Workout Tracker',
         techStack: 'Node | MongoDB | Express',
         popoverContent: 'A workout tracker to practice MongoDB.',
-        image: 'Assets/workout-tracker.jpg',
+        image: workoutTracker,
         website: 'https://ps-workout-tracker.herokuapp.com/',
         code: 'https://github.com/prabhm512/workout-tracker',
         alt: 'workout-tracker'
@@ -50,7 +62,7 @@ const projectData = [
         popoverTitle: 'Fantastic Food Finder',
         techStack: 'Third Party API\'s | JS',
         popoverContent: 'A nearby/top restaurant locator.',
-        image: 'Assets/fantastic-food-finder.jpg',
+        image: fff,
         website: 'https://prabhm512.github.io/fantastic-food-finder',
         code: 'https://github.com/prabhm512/fantastic-food-finder',
         alt: 'fantastic-food-finder'
@@ -61,7 +73,7 @@ const projectData = [
         popoverTitle: 'Workday Scheduler',
         techStack: 'HTML | CSS | JS',
         popoverContent: 'Yet another work day schedular.',
-        image: 'Assets/workday-scheduler.jpg',
+        image: workdaySchedular,
         website: 'https://prabhm512.github.io/work-day-scheduler',
         code: 'https://github.com/prabhm512/work-day-scheduler',
         alt: 'workday-scheduler'
@@ -72,7 +84,7 @@ const projectData = [
         popoverTitle: 'Employee Tracker',
         techStack: 'Node | MySQL',
         popoverContent: 'A CLI app that allows easy management of employee data.',
-        image: 'Assets/emp-tracker.jpg',
+        image: empTracker,
         website: 'https://drive.google.com/file/d/1XOWjQuRgM_F00Mw3ydrfIzgJo6np5qRm/view?usp=sharing',
         code: 'https://github.com/prabhm512/employee-tracker',
         alt: 'employee-tracker'
@@ -83,7 +95,7 @@ const projectData = [
         popoverTitle: 'README Generator',
         techStack: 'Node',
         popoverContent: 'A CLI app that automatically generates README\'s.',
-        image: 'Assets/readme-generator.jpg',
+        image: readmeGenerator,
         website: 'https://drive.google.com/file/d/1KeR0acecQa7MNDirhABSZuwqCESTl_ZS/view?usp=sharing',
         code: 'https://github.com/prabhm512/readme-generator',
         alt: 'readme-generator'
@@ -94,7 +106,7 @@ const projectData = [
         popoverTitle: 'Code Quiz',
         techStack: 'HTML | CSS | JS',
         popoverContent: 'A quiz on JS to practice JS.',
-        image: 'Assets/code-quiz.jpg',
+        image: codeQuiz,
         website: 'https://prabhm512.github.io/code-quiz/',
         code: 'https://github.com/prabhm512/code-quiz',
         alt: 'code-quiz'
@@ -105,7 +117,7 @@ const projectData = [
         popoverTitle: 'Password Generator',
         techStack: 'HTML | CSS | JS',
         popoverContent: 'A random password generator.',
-        image: 'Assets/password-generator.jpg',
+        image: pwdGenerator,
         website: 'https://prabhm512.github.io/password-generator',
         code: 'https://github.com/prabhm512/password-generator',
         alt: 'password-generator'
