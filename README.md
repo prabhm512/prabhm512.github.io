@@ -21,7 +21,7 @@ The following factors have been considered in developing this portfolio:
 - VS Code
 
 ## Visuals
-<img src="public/Assets/screenshot.png" alt="screenshot of website"> 
+<img src="./public/images/screenshot.png" alt="screenshot of website"> 
 
 ## <a href="https://prabhm512.github.io/">Deployed Project (click to view)</a>
 
