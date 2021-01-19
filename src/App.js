@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './reset.css';
 import './App.css';
 import { Toast } from 'react-bootstrap'; 
 import MoreAboutMe from './components/MoreAboutMe/MoreAboutMe';

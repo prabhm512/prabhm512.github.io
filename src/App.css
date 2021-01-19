@@ -13,10 +13,6 @@ h2 {
   float: left;
 }
 
-.tooltip {
-    white-space:pre-wrap;
-}
-
 /* Social media links */
 a:hover,
 a:visited {
