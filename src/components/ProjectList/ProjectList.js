@@ -1,11 +1,27 @@
 import React from 'react';
+import { OverlayTrigger, Popover } from 'react-bootstrap';
 
 function ProjectList(props) {
 
     return (
-        <li className={props.data.className} data-bs-toggle="tooltip" data-bs-html="true" title={props.data.popoverTitle}>
+
+        <OverlayTrigger 
+            trigger={['hover', 'focus']} 
+            placement="auto" 
+            overlay={            
+                <Popover id="popover-basic">
+                    <Popover.Title as="h3">{props.data.popoverTitle}</Popover.Title>
+                    <Popover.Content>
+                    {props.data.techStack} 
+                    <br></br>
+                    <br></br>
+                    {props.data.popoverContent}
+                    </Popover.Content>
+                </Popover>
+        }>
+        <li className={props.data.className}>
             <div className="container">
-                <img src={props.data.image} alt="business-advertisement-portal" className="image" />
+                <img src={props.data.image} alt={props.data.alt} className="image" />
                 <div className="centered">
                     <div className="wrapper">
                         <div className="link_wrapper">
@@ -39,6 +55,7 @@ function ProjectList(props) {
                 </div>
             </div>
         </li>
+    </OverlayTrigger>
     )  
 }
 

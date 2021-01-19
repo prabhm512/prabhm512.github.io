@@ -8,7 +8,8 @@ const projectData = [
         popoverContent: 'A free advertisement channel for businesses struggling due to COVID-19.',
         image: 'Assets/bap.jpeg',
         website: 'https://business-advertisement-portal.herokuapp.com/',
-        code: 'https://github.com/prabhm512/business-advertisement-portal'
+        code: 'https://github.com/prabhm512/business-advertisement-portal',
+        alt: "business-advertisement-portal"
     },
     {
         id: 'project-2', 
@@ -18,7 +19,8 @@ const projectData = [
         popoverContent: 'An employee directory to get my feet wet in React.',
         image: 'Assets/employee-directory.png',
         website: 'https://prabhm512.github.io/employee-directory',
-        code: 'https://github.com/prabhm512/employee-directory'
+        code: 'https://github.com/prabhm512/employee-directory',
+        alt: "employee-directory"
     },
     {
         id: 'project-3', 
@@ -28,7 +30,8 @@ const projectData = [
         popoverContent: 'A burger logger to practice the MVC framework.',
         image: 'Assets/burger-logger.jpg',
         website: 'https://ps-burger-logger.herokuapp.com/',
-        code: 'https://github.com/prabhm512/burger-logger'
+        code: 'https://github.com/prabhm512/burger-logger',
+        alt: 'burger-logger'
     },
     {
         id: 'project-4', 
@@ -38,7 +41,8 @@ const projectData = [
         popoverContent: 'A workout tracker to practice MongoDB.',
         image: 'Assets/workout-tracker.jpg',
         website: 'https://ps-workout-tracker.herokuapp.com/',
-        code: 'https://github.com/prabhm512/workout-tracker'
+        code: 'https://github.com/prabhm512/workout-tracker',
+        alt: 'workout-tracker'
     },
     {
         id: 'project-5', 
@@ -48,7 +52,8 @@ const projectData = [
         popoverContent: 'A nearby/top restaurant locator.',
         image: 'Assets/fantastic-food-finder.jpg',
         website: 'https://prabhm512.github.io/fantastic-food-finder',
-        code: 'https://github.com/prabhm512/fantastic-food-finder'
+        code: 'https://github.com/prabhm512/fantastic-food-finder',
+        alt: 'fantastic-food-finder'
     },
     {
         id: 'project-6', 
@@ -58,7 +63,8 @@ const projectData = [
         popoverContent: 'Yet another work day schedular.',
         image: 'Assets/workday-scheduler.jpg',
         website: 'https://prabhm512.github.io/work-day-scheduler',
-        code: 'https://github.com/prabhm512/work-day-scheduler'
+        code: 'https://github.com/prabhm512/work-day-scheduler',
+        alt: 'workday-scheduler'
     },
     {
         id: 'project-7', 
@@ -68,7 +74,8 @@ const projectData = [
         popoverContent: 'A CLI app that allows easy management of employee data.',
         image: 'Assets/emp-tracker.jpg',
         website: 'https://drive.google.com/file/d/1XOWjQuRgM_F00Mw3ydrfIzgJo6np5qRm/view?usp=sharing',
-        code: 'https://github.com/prabhm512/employee-tracker'
+        code: 'https://github.com/prabhm512/employee-tracker',
+        alt: 'employee-tracker'
     },
     {
         id: 'project-8', 
@@ -78,7 +85,8 @@ const projectData = [
         popoverContent: 'A CLI app that automatically generates README\'s.',
         image: 'Assets/readme-generator.jpg',
         website: 'https://drive.google.com/file/d/1KeR0acecQa7MNDirhABSZuwqCESTl_ZS/view?usp=sharing',
-        code: 'https://github.com/prabhm512/readme-generator'
+        code: 'https://github.com/prabhm512/readme-generator',
+        alt: 'readme-generator'
     },
     {
         id: 'project-9', 
@@ -88,7 +96,8 @@ const projectData = [
         popoverContent: 'A quiz on JS to practice JS.',
         image: 'Assets/code-quiz.jpg',
         website: 'https://prabhm512.github.io/code-quiz/',
-        code: 'https://github.com/prabhm512/code-quiz'
+        code: 'https://github.com/prabhm512/code-quiz',
+        alt: 'code-quiz'
     },
     {
         id: 'project-10', 
@@ -98,7 +107,8 @@ const projectData = [
         popoverContent: 'A random password generator.',
         image: 'Assets/password-generator.jpg',
         website: 'https://prabhm512.github.io/password-generator',
-        code: 'https://github.com/prabhm512/password-generator'
+        code: 'https://github.com/prabhm512/password-generator',
+        alt: 'password-generator'
     },
 ];
 

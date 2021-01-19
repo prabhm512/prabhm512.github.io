@@ -27,7 +27,7 @@ function ContentFilter() {
                         </div> {/* cd-tab-filter */}
                         </div> {/* cd-tab-filter-wrapper */}
                             <section className="cd-gallery">
-                                <ul>
+                                <ul class="projectList">
                                     <OverlayTrigger trigger={['hover', 'focus']} placement="auto" 
                                     
                                         overlay={            
