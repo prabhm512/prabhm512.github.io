@@ -18,7 +18,7 @@ const projectData = [
         className: 'color-1',
         popoverTitle: 'Trase',
         techStack: 'MongoDB | Express | React | Node.js',
-        popoverContent: 'A tool that automatatically manages the time and cost of each task completed in a project',
+        popoverContent: 'Trase automatically manages the time and cost of each task completed in a project',
         image: trase,
         website: 'https://ps-trase.herokuapp.com/',
         code: 'https://github.com/prabhm512/trase',
