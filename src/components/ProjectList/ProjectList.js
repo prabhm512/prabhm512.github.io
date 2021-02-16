@@ -21,7 +21,7 @@ function ProjectList(props) {
         }>
         <li className={props.data.className}>
             <div className="container">
-                <img src={props.data.image} alt={props.data.alt} className="image" />
+                <img src={props.data.image} alt={props.data.alt} className="image" height="260"/>
                 <div className="centered">
                     <div className="wrapper">
                         <div className="link_wrapper">

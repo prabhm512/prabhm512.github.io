@@ -9,9 +9,21 @@ import empTracker from '../assets/emp-tracker.jpg';
 import readmeGenerator from '../assets/readme-generator.jpg';
 import codeQuiz from '../assets/code-quiz.jpg';
 import pwdGenerator from '../assets/password-generator.jpg';
+import trase from '../assets/trase.png';
 
 // Data structure for dynamically loading project content in content filter
 const projectData = [
+    {
+        id: 'project-11',
+        className: 'color-1',
+        popoverTitle: 'Trase',
+        techStack: 'MongoDB | Express | React | Node.js',
+        popoverContent: 'A tool that automatatically manages the time and cost of each task completed in a project',
+        image: trase,
+        website: 'https://ps-trase.herokuapp.com/',
+        code: 'https://github.com/prabhm512/trase',
+        alt: 'trase'
+    },
     {
         id: 'project-1',   
         className: 'color-1',
@@ -121,7 +133,7 @@ const projectData = [
         website: 'https://prabhm512.github.io/password-generator',
         code: 'https://github.com/prabhm512/password-generator',
         alt: 'password-generator'
-    },
+    }
 ];
 
 export default projectData;
