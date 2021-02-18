@@ -1,6 +1,7 @@
 body {
   height: 100%;
-  background: linear-gradient(-50deg, white, rgb(250, 160, 150), #f7efe2 );
+  /* background: linear-gradient(-50deg, white, rgb(250, 160, 150), #f7efe2 ); */
+  background-color: pink;
 }
 
 h1,
