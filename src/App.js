@@ -8,12 +8,15 @@ import Footer from './components/Footer/Footer';
 
 // Images
 import welcome from './components/assets/hiBoyEmoji.jpg';
+import important from './components/assets/important.png';
 
 function App() {
 
   const [showA, setShowA] = useState(true);
+  const [showB, setShowB] = useState(true)
 
   const toggleShowA = () => setShowA(!showA);
+  const toggleShowB = () => setShowB(!showB);
 
   return (
     <div className="App">
@@ -26,6 +29,15 @@ function App() {
           <Toast.Body>
               <b>Desktop users</b>: Please HOVER over project images to find out more info.<br></br>
               <b>Mobile users</b>: Please CLICK on bottom right of project images to find out more info.
+          </Toast.Body>
+      </Toast>
+      <Toast className="toast" show={showB} onClose={toggleShowB}>
+          <Toast.Header>
+              <img src={important} className="rounded mr-2" alt="important" width="21px" height="21px"/>                 
+              <strong className="mr-auto">Important</strong>
+          </Toast.Header>
+          <Toast.Body>
+              My websites are hosted on a free service. They will be a little slow to load. Please be patient and pardon me for the inconvenience.
           </Toast.Body>
       </Toast>
 
