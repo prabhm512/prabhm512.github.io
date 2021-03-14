@@ -37,7 +37,7 @@ function App() {
               <strong className="mr-auto">Important</strong>
           </Toast.Header>
           <Toast.Body>
-              My websites are hosted on a free service. They will be a little slow to load. Please be patient and pardon me for the inconvenience.
+              My websites are hosted on a free service. They will be a little slow to load. Please pardon me for the inconvenience.
           </Toast.Body>
       </Toast>
 

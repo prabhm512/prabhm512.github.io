@@ -69,17 +69,6 @@ const projectData = [
         alt: 'workout-tracker'
     },
     {
-        id: 'project-5', 
-        className: 'color-1',
-        popoverTitle: 'Fantastic Food Finder',
-        techStack: 'Third Party API\'s | JS',
-        popoverContent: 'A nearby/top restaurant locator.',
-        image: fff,
-        website: 'https://prabhm512.github.io/fantastic-food-finder',
-        code: 'https://github.com/prabhm512/fantastic-food-finder',
-        alt: 'fantastic-food-finder'
-    },
-    {
         id: 'project-6', 
         className: 'color-2',
         popoverTitle: 'Workday Scheduler',
