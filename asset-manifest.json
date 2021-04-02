@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/prabhm512.github.io/static/css/main.8c5e5d5e.chunk.css",
+    "main.js": "/prabhm512.github.io/static/js/main.87b7fca3.chunk.js",
+    "main.js.map": "/prabhm512.github.io/static/js/main.87b7fca3.chunk.js.map",
+    "runtime-main.js": "/prabhm512.github.io/static/js/runtime-main.3a3ac3a2.js",
+    "runtime-main.js.map": "/prabhm512.github.io/static/js/runtime-main.3a3ac3a2.js.map",
+    "static/css/2.a8b1e1f6.chunk.css": "/prabhm512.github.io/static/css/2.a8b1e1f6.chunk.css",
+    "static/js/2.c496f0d5.chunk.js": "/prabhm512.github.io/static/js/2.c496f0d5.chunk.js",
+    "static/js/2.c496f0d5.chunk.js.map": "/prabhm512.github.io/static/js/2.c496f0d5.chunk.js.map",
+    "index.html": "/prabhm512.github.io/index.html",
+    "static/css/2.a8b1e1f6.chunk.css.map": "/prabhm512.github.io/static/css/2.a8b1e1f6.chunk.css.map",
+    "static/css/main.8c5e5d5e.chunk.css.map": "/prabhm512.github.io/static/css/main.8c5e5d5e.chunk.css.map",
+    "static/js/2.c496f0d5.chunk.js.LICENSE.txt": "/prabhm512.github.io/static/js/2.c496f0d5.chunk.js.LICENSE.txt",
+    "static/media/bap.1d939d8d.jpeg": "/prabhm512.github.io/static/media/bap.1d939d8d.jpeg",
+    "static/media/burger-logger.39b30d50.jpg": "/prabhm512.github.io/static/media/burger-logger.39b30d50.jpg",
+    "static/media/ContentFilter.css": "/prabhm512.github.io/static/media/cd-icon-filter.9420c80f.svg",
+    "static/media/code-quiz.a23d693e.jpg": "/prabhm512.github.io/static/media/code-quiz.a23d693e.jpg",
+    "static/media/emp-tracker.35678b16.jpg": "/prabhm512.github.io/static/media/emp-tracker.35678b16.jpg",
+    "static/media/employee-directory.66bc8282.png": "/prabhm512.github.io/static/media/employee-directory.66bc8282.png",
+    "static/media/fantastic-food-finder.0c4b4e97.jpg": "/prabhm512.github.io/static/media/fantastic-food-finder.0c4b4e97.jpg",
+    "static/media/git.2235b420.jpg": "/prabhm512.github.io/static/media/git.2235b420.jpg",
+    "static/media/html-css.2dc483cf.jpg": "/prabhm512.github.io/static/media/html-css.2dc483cf.jpg",
+    "static/media/important.942bebeb.png": "/prabhm512.github.io/static/media/important.942bebeb.png",
+    "static/media/index.98220e27.jpg": "/prabhm512.github.io/static/media/index.98220e27.jpg",
+    "static/media/js.3abb3de3.png": "/prabhm512.github.io/static/media/js.3abb3de3.png",
+    "static/media/password-generator.6d9325ae.jpg": "/prabhm512.github.io/static/media/password-generator.6d9325ae.jpg",
+    "static/media/react.c08e04e4.png": "/prabhm512.github.io/static/media/react.c08e04e4.png",
+    "static/media/readme-generator.7a3e7c0a.jpg": "/prabhm512.github.io/static/media/readme-generator.7a3e7c0a.jpg",
+    "static/media/resume.fa708f31.png": "/prabhm512.github.io/static/media/resume.fa708f31.png",
+    "static/media/trase.2da29f89.png": "/prabhm512.github.io/static/media/trase.2da29f89.png",
+    "static/media/workday-scheduler.a9ff4cc5.jpg": "/prabhm512.github.io/static/media/workday-scheduler.a9ff4cc5.jpg",
+    "static/media/workout-tracker.cdd7c4ba.jpg": "/prabhm512.github.io/static/media/workout-tracker.cdd7c4ba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a3ac3a2.js",
+    "static/css/2.a8b1e1f6.chunk.css",
+    "static/js/2.c496f0d5.chunk.js",
+    "static/css/main.8c5e5d5e.chunk.css",
+    "static/js/main.87b7fca3.chunk.js"
+  ]
+}
